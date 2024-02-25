@@ -17,5 +17,5 @@ listInsideMainList.forEach((el) => {
 });
 const listItems = document.querySelectorAll(".item ul li");
 listItems.forEach((el) => {
-  el.style = `display: flex; padding: 8px 16px; border: 1px solid #808080; margin-bottom: 8px; border-radius: 4px; color: #2E2F42; `;
+  el.style = `display: flex; padding: 8px 16px; border: 1px solid #808080; margin-bottom: 8px; border-radius: 4px; color: #2E2F42; max-width: 360px; `;
 });
