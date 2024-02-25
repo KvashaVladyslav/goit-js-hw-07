@@ -9,8 +9,11 @@ titles.forEach(function (title) {
   console.log(`Elements: ${categoriesNames.length}`);
 });
 
+list.forEach((el) => {
+  el.style = `background-color: #F6F6FE; max-width: 360px; padding: 16px`;
+});
 const mainList = document.querySelector("#categories");
-mainList.style = `list-style: none;`;
+mainList.style = `list-style: none; display: flex; flex-direction: column; gap: 20px;`;
 const listInsideMainList = document.querySelectorAll(".item ul");
 listInsideMainList.forEach((el) => {
   el.style = `padding: 0px;`;
