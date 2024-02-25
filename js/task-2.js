@@ -31,6 +31,10 @@ const elements = images.map((image) => {
   const imgEl = document.createElement("img");
   imgEl.src = image.url;
   imgEl.alt = image.alt;
+  imgEl.width = 360;
+  imgEl.height = 300;
   liEl.appendChild(imgEl);
   listGallery.appendChild(liEl);
 });
+
+listGallery.style = `display: flex; flex-wrap: wrap; row-gap: 48px; column-gap: 24px; list-style: none; padding: 100px 156px; margin: 0 auto;`;
