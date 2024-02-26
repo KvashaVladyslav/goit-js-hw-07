@@ -13,7 +13,6 @@ createBtn.addEventListener("click", () => {
   if (inputField.value > 0 && inputField.value <= 100) {
     createBoxes(inputField.value);
   } else {
-    alert("Your amount is incorrect");
   }
 });
 

@@ -4,12 +4,12 @@ function handleSubmit(event) {
   event.preventDefault();
   const elements = event.currentTarget.elements;
   const userInfo = {
-    Email: elements.email.value.trim(),
-    Password: elements.password.value.trim(),
+    email: elements.email.value.trim(),
+    password: elements.password.value.trim(),
   };
-  console.log(userInfo);
-  if (userInfo.Email === "" || userInfo.Password === "") {
-    alert("All form fields must be filled in");
+  if (userInfo.email === "" || userInfo.password === "") {
+  } else {
+    console.log(userInfo);
   }
   event.currentTarget.reset();
 }
