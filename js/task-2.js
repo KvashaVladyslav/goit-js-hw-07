@@ -34,4 +34,4 @@ const elements = images
   .join("");
 listGallery.insertAdjacentHTML("beforeend", elements);
 
-listGallery.style = `display: flex; flex-wrap: wrap; row-gap: 48px; column-gap: 24px; list-style: none; padding: 100px 156px; margin: 0 auto;`;
+// listGallery.style = `display: flex; flex-wrap: wrap; row-gap: 48px; column-gap: 24px; list-style: none; padding: 100px 156px; margin: 0 auto;`;
